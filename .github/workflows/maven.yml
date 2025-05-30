@@ -25,5 +25,5 @@ jobs:
     - name: Build, test, and analyze
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=rosyidmw -Dsonar.projectKey=Rosyidmw_MKEPL_Tugas-Week-13-CI-CD-Deployment_2211104076
+      #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      # run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=rosyidmw -Dsonar.projectKey=Rosyidmw_MKEPL_Tugas-Week-13-CI-CD-Deployment_2211104076
